@@ -29,23 +29,8 @@ secretKey = ''  # 你的密钥
 ### 安装依赖
 你需要安装本插件依赖的几个 python 库，如下：
 ```sh
-pip install nonebot
-pip install nonebot[scheduler]
-pip install cqhttp
-pip install aiocqhttp
-pip install requests
-pip install bs4
-```
-
-### 保证ws通道
-如果你以前成功使用过 NoneBot ，那你可跳过本步骤，进行下一步骤。<br>
-否则你必须确保 HttpApi 在 `酷Q/data/app/io.github.richardchien.coolqhttpapi/config/帐号` 内生成的配置文件你已经开启了 ws通道 ，如下所示，以下几个配置是必须的：
-```json
-{
-    "ws_reverse_api_url": "ws://127.0.0.1:8080/ws/api/",
-    "ws_reverse_event_url": "ws://127.0.0.1:8080/ws/event/",
-    "use_ws_reverse": true
-}
+    pip install requests
+    pip install bs4
 ```
 
 ### 设定用户
