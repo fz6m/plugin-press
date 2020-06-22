@@ -10,7 +10,7 @@ sidebar: auto
 
 ## 部署流程
 ### 解压
-将 [本插件](https://github.com/fz6m/nonebot-plugin/tree/master/rar) 下载解压，将解压得到的 `CQtwitter` 文件夹放在 酷Q 根目录下，为了保证路径不出错误，还要检查如下事项：<br>
+将 [本插件](https://github.com/fz6m/nonebot-plugin/releases) 下载解压，将解压得到的 `CQtwitter` 文件夹放在 酷Q 根目录下，为了保证路径不出错误，还要检查如下事项：<br>
 保证你的 NoneBot 主程序 `main.py(这里假设为main.py)` 和 `twitter` 以及 `twitterConfig` 两个文件夹在同一级目录，文件夹 `CQtwitter` 里已经包含了一个示例主程序 `main.py` 可供参考，如果你还有其他插件，你可以直接把 `main.py` 中有关导入本插件的部分拷贝进你的主程序 `_.py` 文件。
 ```python
     #导入本插件
@@ -42,20 +42,20 @@ secretKey = ''  # 你的密钥
  y | 每次要推送的推文在数组中的位置，如果该用户有置顶推文设为 1 ，如果没有设为 0 
  name | 推文里称呼该用户的名字
 格式：
-```text
+```
 id x y name
 ```
 例子：
-```text
+```
 minatoaqua 2 1 湊あくあ
 ```
 以上用户可以在 `user.txt`内配置多个，每个占一行。<br><br>
 之后配置转发群的群号，在 `qun.txt` 内按行填写，格式如下：
-```text
+```
 群号 需要推送的账号name(要与上文中name对应)
 ```
 例子：
-```text
+```
 12345678 湊あくあ
 ```
 如果要一群多个推送，即填写多行。
@@ -80,12 +80,12 @@ minatoaqua 2 1 湊あくあ
 
 ## 翻译增强功能
 考虑到翻译软件是不可能完美翻译人名等，我们可以在 `twitterConfig/fy_plus.txt` 内设定翻译增强，设定格式如下：
-```text
+```
 用户的name(必须和上文name一致) 需要修正的字符串 修正之后的字符串
 ```
 例子：<br>
 这个例子是把几个人名部分做翻译增强，防止翻译模块翻译错误，引发尴尬。
-```text
+```
 湊あくあ 湊あくあ 湊阿夸
 湊あくあ あくあ 阿夸
 湊あくあ ちゃん 酱

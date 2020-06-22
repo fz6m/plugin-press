@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+prev: /cqp/
 ---
 
 # 从零开始
@@ -15,7 +16,7 @@ sidebar: auto
 下载地址：[cqhttp releases](https://github.com/richardchien/coolq-http-api/releases)
 
 在 releases 中下载最新一个版本的 `.cpk` 即可：
-<img :src="$withBase('/cqhttp_releases.jpg')">
+<img :src="$withBase('/cqhttp_releases.jpg')" class="my-img">
 
 下载完毕之后放入 酷Q 根目录下的 `app` 文件夹（插件文件夹）内。
 

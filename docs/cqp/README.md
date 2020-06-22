@@ -1,14 +1,11 @@
 ---
 sidebar: auto
+next: /guide/course
 ---
 
-# **介绍** 
+# 了解基础
 
-## 框架
 这里主要是基于酷Q `NoneBot` 开发框架的几个插件使用说明
-
-## 酷Q是什么？
-[酷Q](https://cqp.cc) 是一个轻巧、免费、高效的 QQ 机器人核心，可以基于此利用不同的语言开发各种聊天功能
 
 ## NoneBot是什么？
 如果你使用过 NoneBot ，可马上进入插件使用说明。<br/>
@@ -21,8 +18,7 @@ sidebar: auto
  nonebot 开发文档： [开发文档](https://nonebot.cqp.moe/) 
 
 ## 可能用到的
-非常建议先安装 nonebot 的计时器基础依赖，这在很多 NoneBot 插件内都需要使用到：
+如果你使用过 NoneBot ，非常建议您先安装 nonebot 的计时器基础依赖，这在很多 NoneBot 插件内都需要使用到：
 ```python
     pip install "nonebot[scheduler]"
 ```
-当然，如果实际使用插件中报错了也可以再安装~

@@ -10,7 +10,7 @@ sidebar: auto
 
 ## 部署流程
 ### 解压
-将 [本插件](https://github.com/fz6m/nonebot-plugin/tree/master/rar) 下载解压，将解压得到的 `CQBangbang` 文件夹放在 酷Q 根目录下，为了保证路径不出错误，还要检查如下事项：<br>
+将 [本插件](https://github.com/fz6m/nonebot-plugin/releases) 下载解压，将解压得到的 `CQBangbang` 文件夹放在 酷Q 根目录下，为了保证路径不出错误，还要检查如下事项：<br>
 保证你的 NoneBot 主程序 `main.py(这里假设为main.py)` 和 `bangbang` 以及 `bangbang_data` 两个文件夹在同一级目录，文件夹 `CQBangbang` 里已经包含了一个示例主程序 `main.py` 可供参考，如果你还有其他插件，你可以直接把 `main.py` 中有关导入本插件的部分拷贝进你的主程序 `_.py` 文件。
 ```python
     #导入本插件
@@ -36,21 +36,21 @@ sidebar: auto
 ### 配置屏蔽群
 为了不打扰非 邦邦 相关群，可以配置屏蔽群号列表，在屏蔽列表内的群不能使用相关指令，如果你不打算配置屏蔽群，可以跳过此步。<br>
 配置文件在 `bangbang_data/qunShield.txt` ，需要屏蔽的群号按行写入，示例：
-```text
+```
     1234567
     9876543
 ```
 ### 配置推送群
 本插件可以自动推送 `Bestdori` 社区最新上传的谱面信息，并推送到所有配置的群内，如果你不打算使用推送功能，可以跳过此步。<br>
 配置文件在 `bangbang_data/send.txt` ，需要推送的群号按行写入，示例：
-```text
+```
     1234567
     9876543
 ```
 
 ### 开始使用
 群内发送如下格式指令可以得到相应的反馈，下文还会给出相关使用示例：
-```text
+```
     指令名 id/关键词
     .指令名id/关键词
 ```
@@ -63,7 +63,7 @@ sidebar: auto
  map | 按 id 作出谱面图片
  注：为了使用指令更加简便， `ssp` 指令还可以缩写成 `s`、`sp` 。 `kkp` 可缩写成 `k`、`kp` 。 `search` 可错写成 `serch` 。下文还会介绍如何删改相关指令。 <br><br>
  例子：
-```text
+```
     // 查询名字包含 鸡你太美 的谱面
     s 鸡你太美
     sp 鸡你太美
