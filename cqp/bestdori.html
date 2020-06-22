@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bestdori 自制谱作图器 | 桃饱の店</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/plugin-press/logo.png">
+    <meta name="description" content="基于NoneBot的插件使用说明">
+    <link rel="preload" href="/plugin-press/assets/css/0.styles.7d7408d5.css" as="style"><link rel="preload" href="/plugin-press/assets/js/app.321a2f04.js" as="script"><link rel="preload" href="/plugin-press/assets/js/2.7823c77b.js" as="script"><link rel="preload" href="/plugin-press/assets/js/7.872e5b46.js" as="script"><link rel="prefetch" href="/plugin-press/assets/js/10.25bede72.js"><link rel="prefetch" href="/plugin-press/assets/js/11.d3927324.js"><link rel="prefetch" href="/plugin-press/assets/js/12.6786b608.js"><link rel="prefetch" href="/plugin-press/assets/js/13.4ea076eb.js"><link rel="prefetch" href="/plugin-press/assets/js/14.aa01c198.js"><link rel="prefetch" href="/plugin-press/assets/js/15.1db1d28e.js"><link rel="prefetch" href="/plugin-press/assets/js/16.ecef8ea3.js"><link rel="prefetch" href="/plugin-press/assets/js/17.14ed7aac.js"><link rel="prefetch" href="/plugin-press/assets/js/18.2ac38839.js"><link rel="prefetch" href="/plugin-press/assets/js/19.a6d60b93.js"><link rel="prefetch" href="/plugin-press/assets/js/20.274ca9bc.js"><link rel="prefetch" href="/plugin-press/assets/js/3.7018fdb3.js"><link rel="prefetch" href="/plugin-press/assets/js/4.4bf8a227.js"><link rel="prefetch" href="/plugin-press/assets/js/5.720f04e0.js"><link rel="prefetch" href="/plugin-press/assets/js/6.01d6ce25.js"><link rel="prefetch" href="/plugin-press/assets/js/8.2eec4d37.js"><link rel="prefetch" href="/plugin-press/assets/js/9.1c2024d3.js">
+    <link rel="stylesheet" href="/plugin-press/assets/css/0.styles.7d7408d5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/plugin-press/" class="home-link router-link-active"><!----> <span class="site-name">桃饱の店</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/plugin-press/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/plugin-press/cqp/" class="nav-link router-link-active">
+  了解基础
+</a></div><div class="nav-item"><a href="/plugin-press/guide/course.html" class="nav-link">
+  从零开始
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="插件说明" class="dropdown-title"><span class="title">插件说明</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/twitter.html" class="nav-link">
+  TwitterPush
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/image.html" class="nav-link">
+  自定义表情包
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/repeater.html" class="nav-link">
+  复读机
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/bestdori.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Bestdori 自制谱作图器
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/grail.html" class="nav-link">
+  圣杯战争
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/marketing.html" class="nav-link">
+  营销号文案生成
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/goodmorning.html" class="nav-link">
+  早晚安
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/cp.html" class="nav-link">
+  CP 小故事
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/hitokoto.html" class="nav-link">
+  一言
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/rotating.html" class="nav-link">
+  图片旋转
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/pixiv.html" class="nav-link">
+  Pixiv 看图
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/fortune.html" class="nav-link">
+  V 运势
+</a></li></ul></div></div><div class="nav-item"><a href="/plugin-press/other/other.html" class="nav-link">
+  其他
+</a></div><div class="nav-item"><a href="https://github.com/fz6m/nonebot-plugin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/plugin-press/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/plugin-press/cqp/" class="nav-link router-link-active">
+  了解基础
+</a></div><div class="nav-item"><a href="/plugin-press/guide/course.html" class="nav-link">
+  从零开始
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="插件说明" class="dropdown-title"><span class="title">插件说明</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/twitter.html" class="nav-link">
+  TwitterPush
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/image.html" class="nav-link">
+  自定义表情包
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/repeater.html" class="nav-link">
+  复读机
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/bestdori.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Bestdori 自制谱作图器
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/grail.html" class="nav-link">
+  圣杯战争
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/marketing.html" class="nav-link">
+  营销号文案生成
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/goodmorning.html" class="nav-link">
+  早晚安
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/cp.html" class="nav-link">
+  CP 小故事
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/hitokoto.html" class="nav-link">
+  一言
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/rotating.html" class="nav-link">
+  图片旋转
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/pixiv.html" class="nav-link">
+  Pixiv 看图
+</a></li><li class="dropdown-item"><!----> <a href="/plugin-press/cqp/fortune.html" class="nav-link">
+  V 运势
+</a></li></ul></div></div><div class="nav-item"><a href="/plugin-press/other/other.html" class="nav-link">
+  其他
+</a></div><div class="nav-item"><a href="https://github.com/fz6m/nonebot-plugin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Bestdori 自制谱作图器</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/plugin-press/cqp/bestdori.html#部署流程" class="sidebar-link">部署流程</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/plugin-press/cqp/bestdori.html#解压" class="sidebar-link">解压</a></li><li class="sidebar-sub-header"><a href="/plugin-press/cqp/bestdori.html#安装依赖" class="sidebar-link">安装依赖</a></li><li class="sidebar-sub-header"><a href="/plugin-press/cqp/bestdori.html#配置屏蔽群" class="sidebar-link">配置屏蔽群</a></li><li class="sidebar-sub-header"><a href="/plugin-press/cqp/bestdori.html#配置推送群" class="sidebar-link">配置推送群</a></li><li class="sidebar-sub-header"><a href="/plugin-press/cqp/bestdori.html#开始使用" class="sidebar-link">开始使用</a></li></ul></li><li><a href="/plugin-press/cqp/bestdori.html#增删改指令名" class="sidebar-link">增删改指令名</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/plugin-press/cqp/bestdori.html#修改谱面图质量" class="sidebar-link">修改谱面图质量</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/plugin-press/cqp/bestdori.html#单独作出高质量的谱面图" class="sidebar-link">单独作出高质量的谱面图</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="bestdori-自制谱作图器"><a href="#bestdori-自制谱作图器" class="header-anchor">#</a> Bestdori 自制谱作图器</h1> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p>这个插件必须要求 酷Q Pro 版本，因为要发送图片</p></div> <h2 id="部署流程"><a href="#部署流程" class="header-anchor">#</a> 部署流程</h2> <h3 id="解压"><a href="#解压" class="header-anchor">#</a> 解压</h3> <p>将 <a href="https://github.com/fz6m/nonebot-plugin/releases" target="_blank" rel="noopener noreferrer">本插件<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 下载解压，将解压得到的 <code>CQBangbang</code> 文件夹放在 酷Q 根目录下，为了保证路径不出错误，还要检查如下事项：<br>
+保证你的 NoneBot 主程序 <code>main.py(这里假设为main.py)</code> 和 <code>bangbang</code> 以及 <code>bangbang_data</code> 两个文件夹在同一级目录，文件夹 <code>CQBangbang</code> 里已经包含了一个示例主程序 <code>main.py</code> 可供参考，如果你还有其他插件，你可以直接把 <code>main.py</code> 中有关导入本插件的部分拷贝进你的主程序 <code>_.py</code> 文件。</p> <div class="language-python extra-class"><pre class="language-python"><code>    <span class="token comment">#导入本插件</span>
+    nonebot<span class="token punctuation">.</span>load_plugins<span class="token punctuation">(</span>
+        path<span class="token punctuation">.</span>join<span class="token punctuation">(</span>path<span class="token punctuation">.</span>dirname<span class="token punctuation">(</span>__file__<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">'bangbang'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token string">'bangbang'</span>
+    <span class="token punctuation">)</span>
+</code></pre></div><h3 id="安装依赖"><a href="#安装依赖" class="header-anchor">#</a> 安装依赖</h3> <p>本插件还依赖处理图片的 python 库，需要安装以下依赖：</p> <div class="language-sh extra-class"><pre class="language-sh"><code>    pip <span class="token function">install</span> requests
+    pip <span class="token function">install</span> pillow
+    pip <span class="token function">install</span> ujson
+    pip <span class="token function">install</span> msgpack
+</code></pre></div><p>注：如果安装 <code>ujson</code> 依赖失败，你可以在 <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#ujson" target="_blank" rel="noopener noreferrer">这里<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 下载对应你 <code>python</code> 版本和位数的 <code>ujson</code> 安装包，之后执行本地安装即可：</p> <div class="language-sh extra-class"><pre class="language-sh"><code>    pip <span class="token function">install</span> 本地 ujson 安装包<span class="token punctuation">(</span>.whl<span class="token punctuation">)</span>路径
+</code></pre></div><h3 id="配置屏蔽群"><a href="#配置屏蔽群" class="header-anchor">#</a> 配置屏蔽群</h3> <p>为了不打扰非 邦邦 相关群，可以配置屏蔽群号列表，在屏蔽列表内的群不能使用相关指令，如果你不打算配置屏蔽群，可以跳过此步。<br>
+配置文件在 <code>bangbang_data/qunShield.txt</code> ，需要屏蔽的群号按行写入，示例：</p> <div class="language- extra-class"><pre class="language-text"><code>    1234567
+    9876543
+</code></pre></div><h3 id="配置推送群"><a href="#配置推送群" class="header-anchor">#</a> 配置推送群</h3> <p>本插件可以自动推送 <code>Bestdori</code> 社区最新上传的谱面信息，并推送到所有配置的群内，如果你不打算使用推送功能，可以跳过此步。<br>
+配置文件在 <code>bangbang_data/send.txt</code> ，需要推送的群号按行写入，示例：</p> <div class="language- extra-class"><pre class="language-text"><code>    1234567
+    9876543
+</code></pre></div><h3 id="开始使用"><a href="#开始使用" class="header-anchor">#</a> 开始使用</h3> <p>群内发送如下格式指令可以得到相应的反馈，下文还会给出相关使用示例：</p> <div class="language- extra-class"><pre class="language-text"><code>    指令名 id/关键词
+    .指令名id/关键词
+</code></pre></div><p>目前支持的指令：</p> <table><thead><tr><th style="text-align:center;">指令</th> <th style="text-align:left;">说明</th></tr></thead> <tbody><tr><td style="text-align:center;">ssp</td> <td style="text-align:left;">按关键词搜索相关谱面，默认显示最新的 10 张</td></tr> <tr><td style="text-align:center;">kkp</td> <td style="text-align:left;">按 id 查询该谱面的基本信息（歌曲名、Level、时长、作者）</td></tr> <tr><td style="text-align:center;">search</td> <td style="text-align:left;">按 id 查询该谱面的详细信息（封面、歌曲名、歌手、Level、时长、作者、上传时间、介绍）</td></tr> <tr><td style="text-align:center;">map</td> <td style="text-align:left;">按 id 作出谱面图片</td></tr></tbody></table> <p>注：为了使用指令更加简便， <code>ssp</code> 指令还可以缩写成 <code>s</code>、<code>sp</code> 。 <code>kkp</code> 可缩写成 <code>k</code>、<code>kp</code> 。 <code>search</code> 可错写成 <code>serch</code> 。下文还会介绍如何删改相关指令。 <br><br>
+例子：</p> <div class="language- extra-class"><pre class="language-text"><code>    // 查询名字包含 鸡你太美 的谱面
+    s 鸡你太美
+    sp 鸡你太美
+    .s鸡你太美
+    .ssp鸡你太美
+
+    // 查询标签包含 Arcaea 的谱面
+    s #Arcaea
+
+    // 查询标签包含 鸡头 名字包含 鸡 的谱面
+    s #鸡头 鸡
+
+    // 查询 id 为 7070 的谱面基本信息
+    k 7070
+    kkp 7070
+    .k7070
+
+    // 查询 id 为 7070 的谱面详细信息
+    search 7070
+
+    // 查看 id 为 7070 的谱面图片
+    map 7070
+</code></pre></div><h2 id="增删改指令名"><a href="#增删改指令名" class="header-anchor">#</a> 增删改指令名</h2> <p>如果你想删改相关指令，可以在 <code>bangbang/__init__.py</code> 文件内找到如下部分：</p> <div class="language-python extra-class"><pre class="language-python"><code>    ···
+    <span class="token comment"># base info</span>
+    baseKeyList <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'k'</span><span class="token punctuation">,</span><span class="token string">'kp'</span><span class="token punctuation">,</span><span class="token string">'kkp'</span><span class="token punctuation">]</span>
+    code <span class="token operator">=</span> <span class="token keyword">await</span> command<span class="token punctuation">.</span>reasonable<span class="token punctuation">(</span>msg<span class="token punctuation">,</span>baseKeyList<span class="token punctuation">)</span>
+    ···
+</code></pre></div><p>每一个功能的可用指令都是用列表封装的，如果你想增删改查询谱面 基本信息 的相关指令，在 <code>baseKeyList</code> 变量内修改即可，其他功能修改指令方法相同。</p> <h2 id="修改谱面图质量"><a href="#修改谱面图质量" class="header-anchor">#</a> 修改谱面图质量</h2> <p>因为 酷Q 能发送图片最大的大小和你的网络情况有关，一般图片超过 10 s 还未被上传成功的话，发送就会失败，也就是说，假如你的服务器带宽只有 1 M ，那么你的图片最大只能发送 1 M 左右，所以必须要对谱面图片做出压缩限制，本插件默认配置就可以满足 1 M 带宽的服务器使用，无需更改。<br>
+如果你拥有更高的带宽，可以进行如下更改提升你的谱面图质量，在 <code>bangbang/mapGet.py</code> 中前几行，你可以找到如下部分：</p> <div class="language-python extra-class"><pre class="language-python"><code>    ···
+    <span class="token keyword">async</span> <span class="token keyword">def</span> <span class="token function">mapGet</span><span class="token punctuation">(</span><span class="token builtin">id</span><span class="token punctuation">,</span>bot<span class="token punctuation">,</span>qun<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        comRatio <span class="token operator">=</span> <span class="token number">3</span>
+    ···
+</code></pre></div><p>其中 <code>comRatio</code> 即为图片压缩比例，对于 1 M 带宽的网络，我们推荐设置为 3 ，如果你想提升图片质量，可调整至 2 或 1 ， 2 即为压缩一倍， 1 即为不压缩，但是设定为 1 时图片会大出几倍，导致上传失败，请谨慎使用。<br>
+另外，图片的压缩还有一个模糊参数，这个功能是 <code>PIL</code> 库自带的压缩可选项，你可以在 <code>bangbang/mapGet.py</code> 尾部找到如下部分：</p> <div class="language-python extra-class"><pre class="language-python"><code>    <span class="token comment">#存图片</span>
+    backgroundPlus<span class="token punctuation">.</span>resize<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">(</span><span class="token punctuation">(</span>plusWidth<span class="token operator">+</span>marginPlus<span class="token operator">*</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token operator">/</span>comRatio<span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token punctuation">(</span>plusHeight<span class="token operator">+</span>marginPlus<span class="token operator">*</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token operator">/</span>comRatio<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>convert<span class="token punctuation">(</span><span class="token string">'RGB'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>
+    save<span class="token punctuation">(</span>imageP<span class="token punctuation">,</span>quality<span class="token operator">=</span><span class="token number">50</span><span class="token punctuation">)</span> 
+</code></pre></div><p>其中，参数 <code>quality</code> 后的值即为模糊比，最大设定为 100 （不模糊压缩），数值越小模糊程度越大，相对应的图片就越大。但是不建议修改此参数，因为图片清晰度的主要原因在于 <code>comRatio</code> 设定的压缩比，这也是没有单独抽取此参数的原因。</p> <h2 id="单独作出高质量的谱面图"><a href="#单独作出高质量的谱面图" class="header-anchor">#</a> 单独作出高质量的谱面图</h2> <p>有些时候你可能需要很高质量、清晰的谱面图，在 <code>bangbang/HighQualityImage.py</code> 内准备了解决方案，可以让你本地手动运行获得高质量的谱面图。<br>
+在使用前，你需要配置好该文件内的 作图参数 ，以下是该文件的配置部分：</p> <div class="language-python extra-class"><pre class="language-python"><code>    <span class="token comment"># 核心参数 设定以下四个即可</span>
+    <span class="token comment"># 谱面 id</span>
+    <span class="token builtin">id</span> <span class="token operator">=</span> <span class="token number">7070</span>
+    <span class="token comment"># 压缩参数-压缩百分比 | 高质量图可以设定为 1(不压缩)或2(压缩一倍)</span>
+    comRatio <span class="token operator">=</span> <span class="token number">2</span>
+    <span class="token comment"># 音轨剪断节数 | 一般 2-4 min 歌曲设定为 8-12 若歌曲特别短</span>
+    <span class="token comment"># 如 1 min 可设定为更小值 不建议小于 5 </span>
+    cutNumber <span class="token operator">=</span> <span class="token number">12</span>
+    <span class="token comment"># 压缩参数-画面质量 | 一般设定为 50-100</span>
+    imageQuality <span class="token operator">=</span> <span class="token number">80</span>
+</code></pre></div><p>另外，使用前也必须安装相关的依赖和确保静态资源文件没有被移动位置，在该 <code>HighQualityImage.py</code> 内均有详细说明，配置好后手动运行即可得到高质量的谱面图。</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">5/4/2020, 4:44:33 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/plugin-press/assets/js/app.321a2f04.js" defer></script><script src="/plugin-press/assets/js/2.7823c77b.js" defer></script><script src="/plugin-press/assets/js/7.872e5b46.js" defer></script>
+  </body>
+</html>
