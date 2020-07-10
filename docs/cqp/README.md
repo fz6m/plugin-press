@@ -12,6 +12,7 @@ next: /guide/course
 如果你不了解 NoneBot ，你可以参考 [从零开始](../guide/course.md) 的安装教程。
 
 如果你是开发者，你还可以学习：
+
  cqhttp 项目地址： [cqhttp github](https://github.com/richardchien/coolq-http-api) <br>
  cqhttp 开发文档： [开发文档](https://cqhttp.cc/docs/) <br/>
  nonebot 项目地址： [NoneBot](https://github.com/richardchien/nonebot) <br/>

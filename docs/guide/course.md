@@ -20,6 +20,10 @@ prev: /cqp/
 
 下载完毕之后放入 酷Q 根目录下的 `app` 文件夹（插件文件夹）内。
 
+### 安装运行库
+
+为防止 CQHTTP 中控台缺少运行库启动不了，需要先安装相应的运行库：[运行库下载](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+
 ### 配置
 在 酷Q 内重载一遍插件列表，启动刚刚下载的 cqhttp 插件，这时 cqhttp 配置文件会生成在 酷Q 根目录下的 `data/app/io.github.richardchien.coolqhttpapi/config/` 内，有一个以你机器人 QQ 号命名的 `.json` 文件。
 
