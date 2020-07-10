@@ -66,3 +66,14 @@ prev: /cqp/
 
 ## 其他
 至此，已经全部部署好了 cqhttp 插件、 Python 运行环境、 nonebot 依赖，可以进入插件使用部分的文档。
+
+### 多插件示例
+
+一个具有多插件的根目录中，应该只有一个 `CQHTTP` 的主目录：
+<img :src="$withBase('/example/1.jpg')" class="my-img">
+
+其中含有各种插件的目录文件夹：
+<img :src="$withBase('/example/2.jpg')" class="my-img">
+
+主程序应该导入各个插件，注意 `nonebot.init(config)` 与 `nonebot.run()` 应该只有一行：
+<img :src="$withBase('/example/3.jpg')" class="my-img">
