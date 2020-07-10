@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /home.png
+heroImage: /home.jpg
 actionText: Start
 actionLink: /cqp/
 features:

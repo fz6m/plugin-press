@@ -16,6 +16,7 @@ prev: /cqp/
 下载地址：[cqhttp releases](https://github.com/richardchien/coolq-http-api/releases)
 
 在 releases 中下载最新一个版本的 `.cpk` 即可：
+
 <img :src="$withBase('/cqhttp_releases.jpg')" class="my-img">
 
 下载完毕之后放入 酷Q 根目录下的 `app` 文件夹（插件文件夹）内。
@@ -70,10 +71,13 @@ prev: /cqp/
 ### 多插件示例
 
 一个具有多插件的根目录中，应该只有一个 `CQHTTP` 的主目录：
+
 <img :src="$withBase('/example/1.jpg')" class="my-img">
 
 其中含有各种插件的目录文件夹：
+
 <img :src="$withBase('/example/2.jpg')" class="my-img">
 
 主程序应该导入各个插件，注意 `nonebot.init(config)` 与 `nonebot.run()` 应该只有一行：
+
 <img :src="$withBase('/example/3.jpg')" class="my-img">
