@@ -65,7 +65,7 @@ prev: /cqp/
       pip install -i https://pypi.tuna.tsinghua.edu.cn/simple nonebot
    ```
 
-## 其他
+## 开始使用
 至此，已经全部部署好了 cqhttp 插件、 Python 运行环境、 nonebot 依赖，可以进入插件使用部分的文档。
 
 ### 多插件示例
@@ -81,3 +81,10 @@ prev: /cqp/
 主程序应该导入各个插件，注意 `nonebot.init(config)` 与 `nonebot.run()` 应该只有一行：
 
 <img :src="$withBase('/example/3.jpg')" class="my-img">
+
+
+## 常见错误
+
+* 启动错主程序： bot 主程序是最外层的 `main.py` ，而不是插件文件夹内的文件。
+* 未安装 python 依赖：点击启动主程序 `main.py` 一闪而过，说明有 python 依赖未安装，可通过 cmd 命令行执行 `python main.py` 通过报错确认是哪个依赖未安装或存在什么问题。
+* 未安装运行库：启动 cqhttp 插件后未弹出控制台，或能正常弹出控制台，但部分插件运行正常却不能使用，说明未安装运行库，请参照上文教程安装运行库。
