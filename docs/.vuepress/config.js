@@ -1,6 +1,6 @@
 module.exports = {
     base: '/plugin-press/',
-    title: '桃饱の店',
+    title: 'nonebot-plugin',
     description: '基于 NoneBot 的插件使用说明',
     port: 9527,
     head: [
