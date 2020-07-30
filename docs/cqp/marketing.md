@@ -7,10 +7,10 @@ sidebar: auto
 ## 部署流程
 
 ### 使用 cpk 版
-你可以选择不安装 nonebot 版本，本插件提供可以直接使用的 `.cpk` 插件版，在 [releases](https://github.com/fz6m/nonebot-plugin/releases) 下载后直接放入 `app` 插件文件夹即可开始使用。
+你可以选择不安装 nonebot 版本，本插件提供可以直接使用的 `.cpk` 插件版，在 [releases](https://github.com/fz6m/nonebot-plugin/releases/download/0.0/com.fz6m.marketing.cpk) 下载后直接放入 `app` 插件文件夹即可开始使用。
 
 ### 解压
-如果你选择使用 nonebot 版本，将 [本插件](https://github.com/fz6m/nonebot-plugin/releases) 下载解压，将解压得到的 `CQMarketing` 文件夹放在 酷Q 根目录下，为了保证路径不出错误，还要检查如下事项：<br>
+如果你选择使用 nonebot 版本，将 [本插件](https://github.com/fz6m/nonebot-plugin/releases/download/0.1/Marketing.zip) 下载解压，将解压得到的 `CQMarketing` 文件夹放在 酷Q 根目录下，为了保证路径不出错误，还要检查如下事项：<br>
 保证你的 NoneBot 主程序 `main.py(这里假设为main.py)` 和 `cp` 文件夹在同一级目录，文件夹 `CQMarketing` 里已经包含了一个示例主程序 `main.py` 可供参考，如果你还有其他插件，你可以直接把 `main.py` 中有关导入本插件的部分拷贝进你的主程序 `_.py` 文件。
 ```python
     #导入本插件

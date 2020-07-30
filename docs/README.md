@@ -28,5 +28,7 @@ features:
   details: 按画师收集所有图片后查看，一般.jpg
 - title: V 运势
   details: 喜欢的 vtb 带来你每天的运势
+- title: 丢人爬 
+  details: 乱丢群友，解锁更多爬的姿势（By clague）
 footer: MIT Licensed | Copyright © 2020-fz6m
 ---

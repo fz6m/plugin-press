@@ -12,7 +12,7 @@ sidebar: auto
 
 ## 部署流程
 ### 解压
-将 [本插件](https://github.com/fz6m/nonebot-plugin/releases) 下载解压，将解压得到的 `CQimage` 文件夹放在 酷Q 根目录下，为了保证路径不出错误，还要检查如下事项：<br>
+将 [本插件](https://github.com/fz6m/nonebot-plugin/releases/download/0.1/ImageCustom.zip) 下载解压，将解压得到的 `CQimage` 文件夹放在 酷Q 根目录下，为了保证路径不出错误，还要检查如下事项：<br>
 保证你的 NoneBot 主程序 `main.py(这里假设为main.py)` 和 `image` 以及 `image_data` 两个文件夹在同一级目录，文件夹 `CQimage` 里已经包含了一个示例主程序 `main.py` 可供参考，如果你还有其他插件，你可以直接把 `main.py` 中有关导入本插件的部分拷贝进你的主程序 `_.py` 文件。
 ```python
     #导入本插件
