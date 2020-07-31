@@ -24,6 +24,7 @@ sidebar: auto
 本插件需要安装以下依赖：
 ```sh
     pip install pillow
+    pip install aiohttp
 ```
 
 ## 开始使用

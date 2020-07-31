@@ -55,6 +55,7 @@ prev: /cqp/
    pip install nonebot
    pip install "nonebot[scheduler]"
    pip install aiocqhttp
+   pip install aiohttp
  ```
 
 注：
