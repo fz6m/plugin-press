@@ -35,7 +35,7 @@ module.exports = {
             { text: '自定义表情包🔥', link: '/cqp/image' },
             { text: '复读机', link: '/cqp/repeater' },
             { text: 'Bestdori 自制谱作图器', link: '/cqp/bestdori' },
-            { text: '圣杯战争🚀', link: '/cqp/grail' },
+            { text: '圣杯战争', link: '/cqp/grail' },
             { text: '营销号文案生成', link: '/cqp/marketing' },
             { text: '早晚安🚀', link: '/cqp/goodmorning' },
             { text: 'CP 小故事', link: '/cqp/cp' },
